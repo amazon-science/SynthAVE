@@ -1,0 +1,93 @@
+{
+  "arena_lookup_rows": 12728,
+  "triage_lookup_rows": 400,
+  "per_language": {
+    "DE": {
+      "input_rows": 3080,
+      "output_rows": 3059,
+      "dropped_no_csv_match": 21,
+      "label_source": {
+        "arena_majority": 2747,
+        "expert_adjudication": 307,
+        "arena_majority_triage_unsure": 4,
+        "triage_undecisive": 1
+      },
+      "final_label_distribution": {
+        "Unknown": 1086,
+        "Correct": 1461,
+        "Incorrect": 512
+      }
+    },
+    "IT": {
+      "input_rows": 3034,
+      "output_rows": 3007,
+      "dropped_no_csv_match": 27,
+      "label_source": {
+        "arena_majority": 2707,
+        "expert_adjudication": 298,
+        "triage_undecisive": 1,
+        "arena_majority_triage_unsure": 1
+      },
+      "final_label_distribution": {
+        "Correct": 1452,
+        "Unknown": 1113,
+        "Incorrect": 442
+      }
+    },
+    "FR": {
+      "input_rows": 3528,
+      "output_rows": 3501,
+      "dropped_no_csv_match": 27,
+      "label_source": {
+        "arena_majority": 3143,
+        "expert_adjudication": 357,
+        "triage_undecisive": 1
+      },
+      "final_label_distribution": {
+        "Unknown": 1281,
+        "Correct": 1670,
+        "Incorrect": 550
+      }
+    },
+    "ES": {
+      "input_rows": 3187,
+      "output_rows": 3159,
+      "dropped_no_csv_match": 28,
+      "label_source": {
+        "arena_majority": 2862,
+        "expert_adjudication": 296,
+        "arena_majority_triage_unsure": 1
+      },
+      "final_label_distribution": {
+        "Unknown": 1175,
+        "Incorrect": 501,
+        "Correct": 1483
+      }
+    },
+    "EN": {
+      "output_rows": 3180,
+      "protocol": "arena_majority_only",
+      "notes": "English is a 5th-locale extension. Labels come from the 21-judge arena majority vote alone; no expert adjudication or triage audit was performed. The arena's Claude family judge is Claude 4 Sonnet (the paper's four locales used Claude 3.5 Sonnet, which was retired). English label quality is therefore lower than the 97.9% figure reported for the paper's four locales.",
+      "label_source": {
+        "arena_majority": 3180
+      },
+      "final_label_distribution": {
+        "Correct": 1320,
+        "Incorrect": 351,
+        "Unknown": 1509
+      }
+    }
+  },
+  "totals_label_source": {
+    "arena_majority": 14639,
+    "expert_adjudication": 1258,
+    "arena_majority_triage_unsure": 6,
+    "triage_undecisive": 3
+  },
+  "totals": {
+    "rows": 15906,
+    "Correct": 7386,
+    "Incorrect": 2356,
+    "Unknown": 6164
+  }
+}

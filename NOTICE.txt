@@ -1,0 +1,50 @@
+SynthAVE
+========
+
+Copyright (c) 2026 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+This dataset is released under the Creative Commons
+Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+See LICENSE.txt for the full license text.
+
+
+Attribution
+-----------
+
+If you use SynthAVE in your work, please cite the associated
+publication:
+
+    A. Scarinci, V. Negri, B. Impata, S. Khan, V. Martinez, M. Federico.
+    "SynthAVE: Scalable Synthetic Labeling for E-Commerce with
+    LLM-Arena Validation."
+    Proceedings of the 2026 Conference on Empirical Methods in
+    Natural Language Processing: Industry Track (EMNLP 2026).
+    arXiv:2607.07469.
+
+Please also cite the underlying attribute-aware product-generation
+pipeline used to construct the source products:
+
+    V. Negri, V. Martinez Gomez, S. A. Balanya, S. Rajaram.
+    "Attribute-Aware Controlled Product Generation with LLMs for
+    E-commerce."
+    2025. arXiv:2601.04200.
+
+
+Third-Party Content
+-------------------
+
+This dataset contains synthetic product descriptions generated with
+large language models. All product identifiers, brand names, model
+identifiers, and other potentially identifying signals have been
+anonymised during generation and further scrubbed in a second-pass
+sweep at release time. No customer data, seller data, or personally
+identifying information is included.
+
+
+Contact
+-------
+
+For research inquiries, please contact the paper authors via the
+addresses listed on arXiv:2607.07469. This repository is maintained
+as a frozen research artifact matching the published paper; pull
+requests are not accepted.
